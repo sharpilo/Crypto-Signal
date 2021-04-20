@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "crypto-signal"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.20.2"
+Cython = "^0.29.23"
+twilio = "^6.56.0"
+ccxt = "^1.48.23"
+python-json-logger = "^2.0.1"
+pandas = "^1.2.4"
+stockstats = "^0.2.0"
+TA-lib = "^0.4.17"
+tabulate = "^0.8.2"
+slackweb = "^1.0.5"
+tenacity = "^4.8.0"
+python-telegram-bot = "^10.0.1"
+webcord = "^0.2"
+jinja2 = "^2.10"
+requests = "^2.20.0"
+PyYAML = "^5.1"
+matplotlib = "^3.0.1"
+scipy = "^1.1.0"
+newtulipy = "^0.4.4"
+structlog = "^21.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
